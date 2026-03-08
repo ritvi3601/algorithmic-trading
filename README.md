@@ -1,6 +1,3 @@
-This README is professionally structured for your **Algorithmic Trading** project, specifically incorporating the **Bollinger Bands, MACD, and Twitter Sentiment** analysis seen in your repository.
-
----
 
 # Algorithmic Trading: Technical Indicators & Sentiment Analysis
 
