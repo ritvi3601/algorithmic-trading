@@ -5,7 +5,8 @@
 
 This project explores the implementation and effectiveness of algorithmic trading strategies in modern financial markets. By leveraging mathematical indicators and alternative data (social media sentiment), the system identifies entry and exit points to maximize profitability while smoothing out market noise.
 
-1. PrerequisitesEnsure you have Python (3.8 or higher) and Anaconda (recommended) installed.2. Clone the RepositoryBashgit clone https://github.com/ritvi3601/algorithmic-trading.git
+1. Prerequisites
+Ensure you have Python (3.8 or higher) and Anaconda (recommended) installed.2. Clone the RepositoryBashgit clone https://github.com/ritvi3601/algorithmic-trading.git
 cd algorithmic-trading
 3. Install Required LibrariesThe project relies on several key quantitative and financial libraries. You can install them all at once using pip:Bashpip install yfinance pandas pandas_datareader matplotlib mplfinance scipy statsmodels numpy
 LibraryPurposeyfinanceScrapes historical market data from Yahoo Finance.pandasData manipulation and time-series analysis.mplfinanceSpecialized financial charts (candlesticks, OHLC).statsmodelsStatistical modeling and hypothesis testing.scipyScientific computing and technical indicators.📈 Analysis OverviewThe core logic is contained within the pds_project.ipynb notebook. The project explores three main strategies:Moving Average Price Action: Implementing short-term (5-day) vs. long-term (30-day) EMA crossovers to determine Buy/Sell positions.Bollinger Bands: Calculating volatility-based bands to identify overbought and oversold conditions.Sentiment-Based Trading: Integrating Twitter sentiment data (engagement ratios, likes, and comments) to correlate social media buzz with stock movement.💻 How to RunLaunch Jupyter Notebook or JupyterLab:Bashjupyter notebook
